@@ -104,37 +104,33 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="464.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PoG-Gu-uRe">
-                                                    <rect key="frame" x="8" y="8" width="390" height="420"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PoG-Gu-uRe">
+                                                    <rect key="frame" x="8" y="8" width="398" height="419.5"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSu-tL-8XF">
-                                                    <rect key="frame" x="8" y="436" width="45" height="20.5"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSu-tL-8XF">
+                                                    <rect key="frame" x="8" y="435.5" width="45" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seH-g5-bNT">
-                                                    <rect key="frame" x="61" y="436" width="75" height="20.5"/>
+                                                    <rect key="frame" x="62" y="436" width="291" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="rSu-tL-8XF" firstAttribute="top" secondItem="PoG-Gu-uRe" secondAttribute="bottom" constant="8" id="5cY-ko-OPC"/>
+                                                <constraint firstItem="rSu-tL-8XF" firstAttribute="leading" secondItem="sWc-75-ZSP" secondAttribute="leading" constant="8" id="88b-Qs-aiJ"/>
                                                 <constraint firstAttribute="bottom" secondItem="seH-g5-bNT" secondAttribute="bottom" constant="8" id="FH2-lg-TO4"/>
                                                 <constraint firstAttribute="bottom" secondItem="rSu-tL-8XF" secondAttribute="bottom" constant="8" id="GmE-WB-FPj"/>
-                                                <constraint firstItem="rSu-tL-8XF" firstAttribute="top" secondItem="PoG-Gu-uRe" secondAttribute="bottom" constant="8" id="Hqi-y6-8xx"/>
-                                                <constraint firstItem="rSu-tL-8XF" firstAttribute="top" secondItem="PoG-Gu-uRe" secondAttribute="bottom" constant="8" id="MHn-jQ-KLO"/>
-                                                <constraint firstAttribute="trailing" secondItem="PoG-Gu-uRe" secondAttribute="trailing" constant="8" id="NEn-2V-9wJ"/>
-                                                <constraint firstAttribute="trailing" secondItem="PoG-Gu-uRe" secondAttribute="trailing" constant="8" id="Ql6-mD-LvQ"/>
                                                 <constraint firstAttribute="trailing" secondItem="PoG-Gu-uRe" secondAttribute="trailing" constant="8" id="Ty0-95-pOZ"/>
-                                                <constraint firstItem="PoG-Gu-uRe" firstAttribute="leading" secondItem="rSu-tL-8XF" secondAttribute="leading" id="YBk-0g-UFp"/>
-                                                <constraint firstAttribute="trailing" secondItem="seH-g5-bNT" secondAttribute="trailing" constant="278" id="YV7-pf-4t0"/>
-                                                <constraint firstItem="seH-g5-bNT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rSu-tL-8XF" secondAttribute="trailing" constant="8" id="iCM-QI-MUc"/>
+                                                <constraint firstItem="PoG-Gu-uRe" firstAttribute="leading" secondItem="sWc-75-ZSP" secondAttribute="leading" constant="8" id="Ua7-Zs-miu"/>
+                                                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="seH-g5-bNT" secondAttribute="trailing" constant="61" id="YV7-pf-4t0"/>
+                                                <constraint firstItem="seH-g5-bNT" firstAttribute="leading" secondItem="rSu-tL-8XF" secondAttribute="trailing" constant="9" id="iCM-QI-MUc"/>
                                                 <constraint firstItem="rSu-tL-8XF" firstAttribute="top" secondItem="PoG-Gu-uRe" secondAttribute="bottom" constant="8" id="nhc-F3-2Ne"/>
                                                 <constraint firstItem="PoG-Gu-uRe" firstAttribute="top" secondItem="sWc-75-ZSP" secondAttribute="top" constant="8" id="wLL-9I-6RE"/>
-                                                <constraint firstItem="seH-g5-bNT" firstAttribute="leading" secondItem="rSu-tL-8XF" secondAttribute="trailing" constant="8" id="yS8-Uj-D0N"/>
+                                                <constraint firstItem="seH-g5-bNT" firstAttribute="leading" secondItem="rSu-tL-8XF" secondAttribute="trailing" constant="9" id="yS8-Uj-D0N"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
